@@ -23,7 +23,9 @@ Open index.html file
 
 If you call D3’s csv, tsv, json, etc. functions to load data from a file and try to directly access the file, it won’t work.
 
-Error: XMLHttpRequest cannot load file:///.../the_file.csv. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome- extension-resource. Solution:
+Error: XMLHttpRequest cannot load file:///.../the_file.csv. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome- extension-resource. 
+
+Solution:
 
 ● Run a local python server → python -m SimpleHTTPServer
 
