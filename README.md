@@ -1,7 +1,7 @@
 # D3.js-Dashboard
 Visualization of FreeCodeCamp 2017 Survey Dataset
 
-This dashboard is a visualization of freeCodeCamp 2017 survey ["dataset"](https://www.kaggle.com/fccuser/the-freecodecamp-2017-new-coder-survey#2017-fCC-New-Coders-Survey-Data.csv)
+This dashboard is a visualization of [freeCodeCamp 2017 survey dataset](https://www.kaggle.com/fccuser/the-freecodecamp-2017-new-coder-survey#2017-fCC-New-Coders-Survey-Data.csv)
 
 ## World Distribution - Attended Bootcamps
 
@@ -22,8 +22,10 @@ The larger the size of the circle, the more number of people use them.
 Open index.html file 
 
 If you call D3’s csv, tsv, json, etc. functions to load data from a file and try to directly access the file, it won’t work.
+
 Error: XMLHttpRequest cannot load file:///.../the_file.csv. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome- extension-resource. Solution:
 
 ● Run a local python server → python -m SimpleHTTPServer
+
 ● Use Firefox directly
 
